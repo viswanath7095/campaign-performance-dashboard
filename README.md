@@ -4,10 +4,10 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Problem Statement
-Marketing teams struggle to identify which customer segments, 
-time periods, and strategies drive the highest campaign ROI.
-This dashboard provides an interactive view of 11,162 customer 
-records to help marketing heads make faster, data-driven decisions.
+A bank ran a telemarketing campaign to sell term deposits.
+Marketing teams needed a single-view dashboard to identify
+which customer segments, months, and strategies drive the
+highest conversion rates — enabling faster, data-driven decisions.
 
 ## Dataset
 | Property | Details |
@@ -19,28 +19,17 @@ records to help marketing heads make faster, data-driven decisions.
 
 ## Tech Stack
 - **Tool:** Microsoft Power BI Desktop
-- **Data Source:** Kaggle Bank Marketing Dataset (CSV)
-- **Charts:** Bar, Pie, Line, Matrix, KPI Cards
+- **Data Source:** CSV (Kaggle)
+- **Visuals:** Pie, Bar, Line, KPI Card
 
-## Dashboard Pages
+## Approach
+1. Loaded raw CSV into Power BI
+2. Built 6 interactive visuals across one dashboard page
+3. Identified high-conversion segments and campaign patterns
+4. Derived actionable business recommendations
 
-### Page 1 — Campaign Overview
-- Total customers contacted
-- Overall subscription rate (47.38%)
-- Month-wise campaign performance
-- KPI cards for key metrics
-
-### Page 2 — Customer Segment Analysis
-- Response rate by job type
-- Age group breakdown
-- Education level impact
-- Balance segment performance
-
-### Page 3 — Strategic Recommendations
-- Ideal customer profile matrix
-- Previous campaign impact
-- Optimal call frequency analysis
-- High ROI segment identification
+## Dashboard Preview
+![Dashboard](Bank%20Marketing%20Campaign%20Dashboard.png)
 
 ## Key Metrics
 | Metric | Value |
@@ -49,19 +38,12 @@ records to help marketing heads make faster, data-driven decisions.
 | Overall Response Rate | 47.38% |
 | Best Month | December (90.91%) |
 | Best Segment | Retired + Elder (87.18%) |
-| Optimal Calls | 1-2 per customer |
+| Previous Success Re-subscribe | 91.32% |
 
-## Key Insights
-- Customers with previous campaign success re-subscribe at **91.32%**
-- December and March campaigns outperform other months by **2x**
-- High balance customers (€5,001–€20,000) respond at **57.7%**
-- Each additional call beyond 2 reduces response rate significantly
-
-## Business Impact
-This dashboard enables marketing teams to:
-- Reduce campaign costs by targeting high-response segments
-- Improve conversion rates by optimizing campaign timing
-- Identify and prioritize high-value customer profiles
-- Make real-time decisions based on live campaign data
+## Business Recommendations
+- Target retired and student segments — highest response rates
+- Run campaigns in Q4 — December and March peak months
+- Re-engage customers from previously successful campaigns
+- Limit calls to 1-2 per customer — response drops after 2 calls
 
 ## Project Structure
